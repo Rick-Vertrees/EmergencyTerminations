@@ -59,7 +59,6 @@ $DisplayName = $ADUser.DisplayName
 $Regex = "^(?<URL>.*)/[^/]*$"
 $Regex2 = "^CN=(?<Name>[^\,]*),(?<OU>.*)$"
 $Regex3 = "^(?<SIDPrefix>.*)-(?<SIDPostfix>[^\-]*)$"
-$Regex4 = "^CN=(?<Name>[^\,]*),OU=M365_SECURITY,OU=Sec groups,OU=Users,OU=RP,DC=radpartners,DC=com$"
 $InboxID = <Automation mailbox inbox ID>
 
 #Declare Microsoft Graph authentication information
